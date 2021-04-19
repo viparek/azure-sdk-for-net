@@ -88,7 +88,7 @@ namespace Sql.Tests
                     State = SecurityAlertsPolicyState.Disabled,
                     EmailAccountAdmins = true,
                     EmailAddresses = new List<string>() { "testSecurityAlert@microsoft.com" },
-                    DisabledAlerts = new List<string>() { "Access_Anomaly; Usage_Anomaly" },
+                    DisabledAlerts = new List<string>() { "Access_Anomaly", "Usage_Anomaly" },
                     RetentionDays = 5,
                     StorageAccountAccessKey = "fake_key_sdlfkjabc+sdlfkjsdlkfsjdfLDKFTERLKFDFKLjsdfksjdflsdkfD2342309432849328476458/3RSD==",
                     StorageEndpoint = "https://MyAccount.blob.core.windows.net/"
